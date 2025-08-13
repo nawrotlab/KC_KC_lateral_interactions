@@ -26,3 +26,4 @@ since it saves the parameters required for tuning the MBON output.
 * **plot_correlation_different_overlaps.py:** Figure S2 A
 * **inter_odor_activity_correlation_sparseness.py:** Figure S2 B-D
 * **learning_rate_screening_mbon_normalized.py:** Figure S2 H
+* **rate_model_odor_stimulation_activity_histograms.py** Figure S4 E
