@@ -299,8 +299,6 @@ def KC_MBON_coincidence_based_weight_change(weightval, CaKCval, danval, dt, lear
         Updated synaptic weight value between KC and MBON.
 
     """
-    # TODO: *IMPROVE THIS FUNCTION BY USING THE CORRECT PREDICTION ERROR SIGNAL (MBON activity difference between current and KC::MBON unmodulated variants)
-    #       *Extend the learning rule to have cAMP driven nonspecific weight change (see Moshe meeting word doc)
     newweight = weightval - learnrate * (CaKCval * danval) * dt  # Reduction in KC::MBON synaptic weight depends on the MBON activity as well (3 factor learning rule,
                                                                # this enables learning rate to reduce over trials.)
     return np.clip(newweight, 0, None)  # Make sure weights are always non-negative
