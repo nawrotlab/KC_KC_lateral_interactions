@@ -21,9 +21,11 @@ since it saves the parameters required for tuning the MBON output.
 
 ## Reproducing the figures
 
-* **fit_rate_model_to_data.py:** Figures 1 B and S2 F,G
-* **plot_valences_normalized_mbon.py:** Figures 1 C and S2 E
-* **plot_correlation_different_overlaps.py:** Figure S2 A
-* **inter_odor_activity_correlation_sparseness.py:** Figure S2 B-D
-* **learning_rate_screening_mbon_normalized.py:** Figure S2 H
-* **rate_model_odor_stimulation_activity_histograms.py** Figure S4 E
+* **fit_rate_model_to_data.py:** Figures 2 B and S1 F,G
+* **plot_valences_normalized_mbon.py:** Figures 2 C and S1 E
+* **plot_correlation_different_overlaps.py:** Figure S1 A
+* **inter_odor_activity_correlation_sparseness.py:** Figure S1 B-D
+* **learning_rate_screening_mbon_normalized.py:** Figure S1 H
+* **rate_model_odor_stimulation_activity_histograms.py** Figure S3 E
+
+### contact: itunc@uni-koeln.de, ibrahimalperentunc@protonmail.com
